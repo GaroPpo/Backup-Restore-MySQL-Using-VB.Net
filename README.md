@@ -7,9 +7,15 @@ Simple Backup and Restore Application Using VB.Net for XAMPP or WAMP MySQL Datab
 Link: [Download Here](http://bit.ly/BackRestVBNet)
 
 ## What You Need to Know
-* This Project using Database named "skripsi"
-* Backup Code default format: Process.Start("[MySQL Dump File Location]", "-u [USERNAME] -p [YOUR PASSWORD] [DATABASE THAT YOU WANT TO BACKUP] -r ""[OUTPUT LOCATION INCLUDE .SQL EXTENSION]""").
-* Restore Code default format: myStreamerWriter.WriteLine("mysql -u [USERNAME] -p [PASSWORD] [YOUR DATABASE NAME] < [DATABASE THAT YOU ALREADY BACKUP FILE PATH]")
+**Backup Code default format:**
+```
+Process.Start("[MySQL Dump File Location]", "-u [USERNAME] -p [YOUR PASSWORD] [DATABASE THAT YOU WANT TO BACKUP] -r ""[OUTPUT LOCATION INCLUDE .SQL EXTENSION]""").
+```
+
+**Restore Code default format:**
+```
+myStreamerWriter.WriteLine("mysql -u [USERNAME] -p [PASSWORD] [YOUR DATABASE NAME] < [DATABASE THAT YOU ALREADY BACKUP FILE PATH]")
+```
 
 ## How to Use
 Change this File Location based on what application you used, WAMP or XAMPP to find MySQLDump.exe and MySQL Bin Folder
