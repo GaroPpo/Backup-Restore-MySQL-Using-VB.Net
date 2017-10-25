@@ -1,0 +1,11 @@
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\bin\Debug\BackRest.exe.config
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.vbprojResolveAssemblyReference.cache
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.Form1.resources
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.Resources.resources
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.vbproj.GenerateResource.Cache
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\bin\Debug\BackRest.exe
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\bin\Debug\BackRest.pdb
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\bin\Debug\BackRest.xml
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.exe
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.xml
+c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.pdb
