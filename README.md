@@ -3,9 +3,6 @@
 ## Description
 Simple Backup and Restore Application Using VB.Net for XAMPP or WAMP MySQL Database.
 
-## Download Link
-Link: [Download Here](http://bit.ly/BackRestVBNet)
-
 ## What You Need to Know
 **Backup Code default format:**
 ```
@@ -26,9 +23,6 @@ Change this File Location based on what application you used, WAMP or XAMPP to f
 ### On Restore Section (Sub Restore)
 * **WAMP User:** C:\wamp64\bin\mysql\mysql5.7.14\bin"
 * **XAMPP User:** C:\xampp\mysql\bin\"
-
-## License
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
 ## Last But Not Least
 For more info you can contact me on my social media. Visit [My Website](https://ericliputra.xyz/) for more information about this project. Thank You!
