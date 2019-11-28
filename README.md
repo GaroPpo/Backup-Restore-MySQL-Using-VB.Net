@@ -25,4 +25,4 @@ Change this File Location based on what application you used, WAMP or XAMPP to f
 * **XAMPP User:** C:\xampp\mysql\bin\"
 
 ## Last But Not Least
-For more info you can contact me on my social media. Visit [My Website](https://ericliputra.xyz/) for more information about this project. Thank You!
+For more info you can contact me on my social media. Visit [My Website](https://ericliputra.com/) for more information about this project. Thank You!
