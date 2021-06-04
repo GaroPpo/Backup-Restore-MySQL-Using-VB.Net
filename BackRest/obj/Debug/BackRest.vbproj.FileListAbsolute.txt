@@ -9,3 +9,14 @@ c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\bin\Deb
 c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.exe
 c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.xml
 c:\users\garoppo\documents\visual studio 2015\Projects\BackRest\BackRest\obj\Debug\BackRest.pdb
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\bin\Debug\BackRest.exe.config
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.exe
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.xml
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.pdb
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\bin\Debug\BackRest.exe
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\bin\Debug\BackRest.pdb
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\bin\Debug\BackRest.xml
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.vbprojResolveAssemblyReference.cache
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.Form1.resources
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.Resources.resources
+C:\Users\ericl\Documents\Workplace\Rumah Coding\[01] Project Visual Studio\Backup-Restore-MySQL-Using-VB.Net\BackRest\obj\Debug\BackRest.vbproj.GenerateResource.Cache

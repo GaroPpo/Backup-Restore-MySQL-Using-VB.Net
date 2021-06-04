@@ -4,7 +4,7 @@ Public Class Form1
 
     Dim Path As String
     Dim BackupPath As String
-    Dim DatabaseName As String = "Backup " + Date.Now.ToString("dd-MM-yyyy HH-mm-ss")
+    Dim DatabaseName As String = "Backup-" + Date.Now.ToString("dd-MM-yyyy-HH-mm-ss")
 
     Sub Backup()
         Try
@@ -14,23 +14,29 @@ Public Class Form1
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
-        Process.Start("C:\wamp64\bin\mysql\mysql5.7.14\bin\mysqldump.exe", "-u root skripsi -r """ & BackupPath & "" & DatabaseName & ".sql""")
-        Process.Start("C:\xampp\mysql\bin\mysqldump.exe", "-u root skripsi -r """ & BackupPath & "" & DatabaseName & ".sql""")
+		'WAMP Server
+		Process.Start("C:\wamp64\bin\mysql\mysql5.7.14\bin\mysqldump.exe", "-u root skripsi -r """ & BackupPath & "" & DatabaseName & ".sql""")
+        
+		'XAMPP SERVER
+		Process.Start("C:\xampp\mysql\bin\mysqldump.exe", "-u root skripsi -r """ & BackupPath & "" & DatabaseName & ".sql""")
+        
+		'MySQL 8.0 Above
+		Process.Start("C:\wamp64\bin\mysql\mysql8.0.21\bin\mysqldump.exe", "--replace --column-statistics=0 -u root -proot --databases audioelektronik -r """ & BackupPath & "" & DatabaseName & ".sql""")
         MsgBox("Backup Created Successfully!", MsgBoxStyle.Information, "Backup")
     End Sub
+	
     Sub Restore()
         Dim myProcess As New Process()
 
         myProcess.StartInfo.FileName = "cmd.exe"
         myProcess.StartInfo.UseShellExecute = False
-        myProcess.StartInfo.WorkingDirectory = "C:\wamp64\bin\mysql\mysql5.7.14\bin"
-        myProcess.StartInfo.WorkingDirectory = "C:\xampp\mysql\bin\"
+        myProcess.StartInfo.WorkingDirectory = "C:\wamp64\bin\mysql\mysql8.0.21\bin"
         myProcess.StartInfo.RedirectStandardInput = True
         myProcess.StartInfo.RedirectStandardOutput = True
         myProcess.Start()
         Dim myStreamerWriter As StreamWriter = myProcess.StandardInput
         Dim myStreamerReader As StreamReader = myProcess.StandardOutput
-        myStreamerWriter.WriteLine("mysql -u root skripsi < " & Path & "")
+        myStreamerWriter.WriteLine("mysql -u root -proot audioelektronik < " & Path & "")
         myStreamerWriter.Close()
         myProcess.WaitForExit()
         myProcess.Close()
